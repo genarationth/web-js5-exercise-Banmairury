@@ -8,7 +8,7 @@ names.push('Sara','Augustin');
 console.log(names);
 
 //Part3
-names.splice(2,0,'Renata');
+names.splice(names.indexOf('David')+1,0,'Renata');
 names.push('Elena');
 console.log(names);
 
@@ -39,7 +39,7 @@ while( j <= number){
 }
 
 //Part 3
-let n = 10;
+let n = 6;
 let arrNum = [];
 let k = 1;
 while (k <= n){
